@@ -20,8 +20,15 @@ public class SimpleAdding {
         int output=0;
         try{
             input = Integer.parseInt(num);
-            for(int i=input; i>0; i--){
-                output=output+i;
+            if(input > 0){
+                for(int i=input; i>0; i--){
+                    output=output+i;
+                }
+            }
+            else if(input < 0){
+                for(int i=input; i<0; i++){
+                    output=output+i;
+                }
             }
         }
         catch(NumberFormatException | NullPointerException e){
