@@ -11,8 +11,8 @@ import java.util.Scanner;
  *
  * @author KJDudley
  */
-public class Function {
-    String FirstReverse(String str) { 
+public class FirstReverse {
+    public String Reverse(String str) { 
   
         // code goes here   
         /* Note: In Java the return type of a function and the 
@@ -42,7 +42,7 @@ public class Function {
     public static void main (String[] args) {  
         // keep this function call here     
         Scanner  s = new Scanner(System.in);
-        Function c = new Function();
-        System.out.print(c.FirstReverse(s.nextLine())); 
+        FirstReverse c = new FirstReverse();
+        System.out.print(c.Reverse(s.nextLine())); 
     }   
 }
