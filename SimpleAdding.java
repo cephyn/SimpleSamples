@@ -15,6 +15,7 @@ public class SimpleAdding {
     
     int Adding(String num) {
 
+        
         //check if we have a valid integer
         int input;
         int output=0;

@@ -15,6 +15,10 @@ import java.util.Scanner;
  * @author KJDudley
  */
 public class NumberCull {
+    
+    //take an input series of numbers, cull out duplicates
+    //return culled list of numbers in order.
+    
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         List<Integer> refList = new ArrayList<>();
